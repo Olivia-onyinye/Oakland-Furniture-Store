@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.decagon.OakLandv1be.config.jwt.RSAKeyProperties",
+      "sourceType": "com.decagon.OakLandv1be.config.jwt.RSAKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.decagon.OakLandv1be.config.jwt.RSAKeyProperties"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.decagon.OakLandv1be.config.jwt.RSAKeyProperties"
+    }
+  ],
+  "hints": []
+}
