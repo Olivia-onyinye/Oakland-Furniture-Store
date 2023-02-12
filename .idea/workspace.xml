@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a215faa-6136-4dcc-842e-0b11f0307291" name="Changes" comment=" CI pipeline adjusted">
+    <list default="true" id="8a215faa-6136-4dcc-842e-0b11f0307291" name="Changes" comment="Docker file build and created, CI file adjusted">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/oakland-furniture.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/oakland-furniture.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/oakland-furniture.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/oakland-furniture.jar.original" afterDir="false" />
     </list>
@@ -61,8 +57,8 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="mvn clean package" />
       <command value="mvn clean install" />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunManager">
@@ -83,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675934312725</updated>
       <workItem from="1675934314871" duration="40000" />
-      <workItem from="1675934441272" duration="18679000" />
+      <workItem from="1675934441272" duration="20346000" />
     </task>
     <task id="LOCAL-00001" summary="set up, methods and controllers for oakland">
       <created>1675934874047</created>
@@ -113,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675938726279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Docker file build and created, CI file adjusted">
+      <created>1676224823175</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676224823175</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +140,7 @@
     <MESSAGE value="set up, methods and controllers for oakland" />
     <MESSAGE value="target file and CI pipeline" />
     <MESSAGE value=" CI pipeline adjusted" />
-    <option name="LAST_COMMIT_MESSAGE" value=" CI pipeline adjusted" />
+    <MESSAGE value="Docker file build and created, CI file adjusted" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker file build and created, CI file adjusted" />
   </component>
 </project>
