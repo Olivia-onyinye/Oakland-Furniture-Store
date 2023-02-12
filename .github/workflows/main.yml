@@ -26,16 +26,16 @@ jobs:
           maven-version: 3.8.2
       - name: run compile
         run: mvn clean install
-      - name: Generate build number
-        uses: einaregilsson/build-number@v3
-        with:
-          token: ${{secrets.github_token}}
+#      - name: Generate build number
+#        uses: einaregilsson/build-number@v3
+#        with:
+#          token: ${{secrets.github_token}}
 
       - name: Build and push Docker image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: holyvia/oakland-furniture-app
-          tags: $BUILD_NUMBER
+          tags: latest
           registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}

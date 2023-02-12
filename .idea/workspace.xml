@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a215faa-6136-4dcc-842e-0b11f0307291" name="Changes" comment="Docker file build and created, CI file adjusted2">
+    <list default="true" id="8a215faa-6136-4dcc-842e-0b11f0307291" name="Changes" comment="Docker file build and created, CI file adjusted 3">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1675934312725</updated>
       <workItem from="1675934314871" duration="40000" />
-      <workItem from="1675934441272" duration="21025000" />
+      <workItem from="1675934441272" duration="21435000" />
     </task>
     <task id="LOCAL-00001" summary="set up, methods and controllers for oakland">
       <created>1675934874047</created>
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676226823034</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Docker file build and created, CI file adjusted 3">
+      <created>1676227673056</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676227673056</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +153,7 @@
     <MESSAGE value=" CI pipeline adjusted" />
     <MESSAGE value="Docker file build and created, CI file adjusted" />
     <MESSAGE value="Docker file build and created, CI file adjusted2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker file build and created, CI file adjusted2" />
+    <MESSAGE value="Docker file build and created, CI file adjusted 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker file build and created, CI file adjusted 3" />
   </component>
 </project>
