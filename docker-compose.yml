@@ -1,14 +1,14 @@
 version: '3.8'
 services:
   app:
-    image: oakland-furniture
+    image: 'oakland-furniture'
     container_name: oakLandApp
     build: .
+    restart: always
     ports:
       - "8080:8080"
     depends_on:
       - db
-#      - javamail
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/oakLandFurniture
       - SPRING_DATASOURCE_USERNAME=postgres
@@ -16,21 +16,13 @@ services:
       - SPRING_JPA_HIBERNATE_DDL_AUTO=update
 
   db:
-    image: postgres:13.3-alpine
+    image: 'postgres:13.3-alpine'
     container_name: oakLand_db
+    restart: always
     ports:
       - "5432:5432"
-
     environment:
-      - SPRING_DATASOURCE_USERNAME=myUser
+      - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=myPassword
       - POSTGRES_DB=oakLandFurniture
       - POSTGRES_HOST_AUTH_METHOD=trust
-
-#  javamail:
-#    image: some-javamail-image
-#    environment:
-#      JAVAMAIL_HOST: smtp.gmail.com
-#      JAVAMAIL_PORT: 587
-#      JAVAMAIL_USER: myuser
-#      JAVAMAIL_PASSWORD: mypassword

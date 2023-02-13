@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a215faa-6136-4dcc-842e-0b11f0307291" name="Changes" comment="Docker file build and created, CI file adjusted 3">
+    <list default="true" id="8a215faa-6136-4dcc-842e-0b11f0307291" name="Changes" comment="Docker file build and created, CI file adjusted 4">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "fa7871d59c2d4b921891845a6e7e2a6a"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,7 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675934312725</updated>
       <workItem from="1675934314871" duration="40000" />
-      <workItem from="1675934441272" duration="21435000" />
+      <workItem from="1675934441272" duration="21975000" />
+      <workItem from="1676232799884" duration="1087000" />
     </task>
     <task id="LOCAL-00001" summary="set up, methods and controllers for oakland">
       <created>1675934874047</created>
@@ -127,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676227673056</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Docker file build and created, CI file adjusted 4">
+      <created>1676227903455</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676227903455</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +166,7 @@
     <MESSAGE value="Docker file build and created, CI file adjusted" />
     <MESSAGE value="Docker file build and created, CI file adjusted2" />
     <MESSAGE value="Docker file build and created, CI file adjusted 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker file build and created, CI file adjusted 3" />
+    <MESSAGE value="Docker file build and created, CI file adjusted 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker file build and created, CI file adjusted 4" />
   </component>
 </project>
